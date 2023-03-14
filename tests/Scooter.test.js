@@ -39,7 +39,7 @@ describe("Scooter object", () => {
 
 //Method tests
 describe("scooter methods", () => {
-  const testUser = new User("Cory", 12345, 27);
+  const testUser = new User("Cory", 'abc123', 27);
   let scooter1;
   let scooter2;
   let scooter3;

@@ -5,6 +5,12 @@ class User {
     this.age = age;
     this.loggedIn = false;
   }
+
+  login(password) {
+    if (password === this.password) {
+      this.loggedIn = true;
+    } else throw new Error("Password is incorrect");
+  }
 }
 
 module.exports = User;
