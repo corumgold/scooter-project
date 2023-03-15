@@ -11,6 +11,10 @@ class User {
       this.loggedIn = true;
     } else throw new Error("Password is incorrect");
   }
+
+  logout() {
+    this.loggedIn = false;
+  }
 }
 
 module.exports = User;
